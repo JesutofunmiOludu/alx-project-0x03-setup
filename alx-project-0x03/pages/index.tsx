@@ -5,6 +5,11 @@ interface PageRouteProps {
   pageRoute: string
 }
 
+// Imeperative routing with useRouter
+  const routeToNextPage  = ({ pageRoute }: PageRouteProps) => {
+    router.push(pageRoute, undefined, { shallow: false})
+  }
+
 export default function Home() {
   const router = useRouter()
 
@@ -34,7 +39,3 @@ export default function Home() {
   );
 }
 
-// Imeperative routing with useRouter
-  const routeToNextPage  = ({ pageRoute }: PageRouteProps) => {
-    router.push(pageRoute, undefined, { shallow: false})
-  }
