@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { PageRouteProps } from "@/pages/index";
 
 /* ---------------------------------- */
 /*            BUTTON PROPS            */
