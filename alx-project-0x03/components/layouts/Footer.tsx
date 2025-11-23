@@ -1,3 +1,6 @@
+
+import { FooterProps } from '@/interface';
+
 import { 
 FaFacebook, 
 FaTwitter,

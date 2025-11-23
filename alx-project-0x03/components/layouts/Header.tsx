@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Button from "../common/Button";
+import { HeaderProps } from "@/interface";
+
 
 const Header: React.FC = () => {
   return (

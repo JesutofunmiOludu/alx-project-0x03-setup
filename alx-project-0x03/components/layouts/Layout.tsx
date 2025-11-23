@@ -1,3 +1,4 @@
+ import { LayoutProps } from '@/interface';
  import { 
 FaFacebook, 
 FaTwitter,
